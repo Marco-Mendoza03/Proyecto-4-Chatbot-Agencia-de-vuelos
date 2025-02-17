@@ -41,7 +41,8 @@ Se usa GPT-4o de OpenAI mediante Open Router. Además se usa:
 - LangGraph: Implementación de flujos conversacionales estructurados (Diseño de bot para que la conversación siga una estructura predefinida con pasos bien definidos)
 
 ### Diagrama en mermaid:
-graph TD;
+
+    graph TD;
     
     A["Usuario hace una pregunta"] -->|¿Contiene 'ley' o 'artículo'?| B["Usa RAG para buscar fragmentos relevantes"]
     
