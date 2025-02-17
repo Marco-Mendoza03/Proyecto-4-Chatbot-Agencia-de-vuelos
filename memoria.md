@@ -42,10 +42,17 @@ Se usa GPT-4o de OpenAI mediante Open Router. Además se usa:
 
 ###Diagrama en mermaid:
 graph TD;
+    
     A["Usuario hace una pregunta"] -->|¿Contiene 'ley' o 'artículo'?| B["Usa RAG para buscar fragmentos relevantes"]
+    
     A -->|Pregunta general| C["Usa agente con herramientas de navegación"]
+    
     B --> D["Devuelve respuesta basada en documentos"]
+    
     C --> E["Interacciona con herramientas externas"]
+    
     E --> F["Devuelve respuesta basada en análisis externo"]
+    
     D --> G["Respuesta mostrada al usuario"]
+    
     F --> G
