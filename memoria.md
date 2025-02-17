@@ -54,3 +54,6 @@ Se usa GPT-4o de OpenAI mediante Open Router. Además se usa:
     D --> G["Respuesta mostrada al usuario"]
     
     F --> G
+
+
+Todo monitorizado desde Helicone, una plataforma de monitorización, desarrollo, y mejora de aplicaciones LLM.
