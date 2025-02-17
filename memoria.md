@@ -41,7 +41,7 @@ Se usa GPT-4o de OpenAI mediante Open Router. Además se usa:
 
     graph TD;
     
-    A["Usuario hace una pregunta"] -->|¿Contiene 'ley' o 'artículo'?| B["Usa RAG para buscar fragmentos relevantes"]
+    A["Usuario hace una pregunta"] -->|¿Contiene 'ley' o 'articulo'?| B["Usa RAG para buscar fragmentos relevantes"]
     
     A -->|Pregunta general| C["Usa agente con herramientas de navegación"]
     
